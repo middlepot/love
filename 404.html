@@ -124,7 +124,7 @@ html {
     text-size-adjust: 100%;
 }
 @supports not (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 body { position: absolute; zoom: 140%;
 	left:680px;
 	top:-80px;
@@ -135,7 +135,7 @@ body { position: absolute; zoom: 140%;
     transform: rotate(90deg); }
 }}
 @supports (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 body { position: absolute; zoom: 140%;
 	left:680px;
 	top:-80px;
@@ -155,7 +155,7 @@ body { position: absolute; zoom: 130%;
 	top:30px; }
 }
 @media screen and (min-width: 2000px) and (orientation: landscape){
-body { position: absolute; zoom: 100%;}
+body { position: absolute; zoom: 170%;}
 }
 @media screen and (min-width: 3000px) and (orientation: landscape){
 body { position: absolute; zoom: 260%;
